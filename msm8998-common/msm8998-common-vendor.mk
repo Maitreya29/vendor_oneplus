@@ -111,6 +111,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/product/lib64/libQTEEConnector_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libQTEEConnector_system.so \
     vendor/oneplus/msm8998-common/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
     vendor/oneplus/msm8998-common/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
+    vendor/oneplus/msm8998-common/proprietary/system_ext/lib/libbeluga.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libbeluga.so \
+    vendor/oneplus/msm8998-common/proprietary/system_ext/lib64/libbeluga.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libbeluga.so \
     vendor/oneplus/msm8998-common/proprietary/product/lib64/libdiag_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdiag_system.so \
     vendor/oneplus/msm8998-common/proprietary/product/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/product/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.alarm@1.0.so \
