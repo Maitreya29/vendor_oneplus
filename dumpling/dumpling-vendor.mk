@@ -6,6 +6,24 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/dumpling
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288.b00 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288.b01 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288.b02 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288.b03 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288.b04 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288.b05:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288.b05 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288.b06 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288.b07 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288.mdt \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288d.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288d.b00 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288d.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288d.b01 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288d.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288d.b02 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288d.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288d.b03 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288d.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288d.b04 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288d.b05:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288d.b05 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288d.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288d.b06 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288d.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288d.b07 \
+    vendor/oneplus/dumpling/proprietary/etc/firmware/gfp5288d.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gfp5288d.mdt \
     vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -26,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/vendor/lib/hw/camera.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8998.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.fpc.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.goodix.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/hw/fingerprint.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.qcom.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libactuator_lc898217xc_imx376k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xc_imx376k.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_3a_1840x1380_30fps_preview_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_3a_1840x1380_30fps_preview_bokeh.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_3a_2592x1458_120fps_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_3a_2592x1458_120fps_video.so \
@@ -58,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera_imx398.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx398.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/hw/fingerprint.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.qcom.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixfingerprintd_binder.so
