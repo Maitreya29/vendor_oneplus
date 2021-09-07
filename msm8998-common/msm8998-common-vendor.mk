@@ -961,6 +961,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
+    libtinycompress \
     SoterService \
     IFAAService \
     WfdService \
